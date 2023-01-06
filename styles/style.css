@@ -79,6 +79,10 @@ main {
 }
 
 /* Section Styles */
+section{
+    margin-top: 130px;
+}
+
 .about {
     background: #FFF8F3;
     border-radius: 10px;
@@ -88,11 +92,11 @@ main {
 }
 
 .section-title {
-    
+
     color: #181818;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -101,16 +105,49 @@ main {
     color: #757575;
     margin-bottom: 40px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.about-info .info-title{
+
+.about-info .info-title {
     font-size: 20px;
     color: #757575;
 }
-.about-info .info-description{
+
+.about-info .info-description {
     font-size: 20px;
-    color: #474747;   
+    color: #474747;
 }
+
+/* What I do Style */
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill .skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill .skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* Resume Style */
+
